@@ -11,7 +11,6 @@ img {
 nav {
     margin-top: .5rem;
     background-image: url("./img/Nav_bg.jpg");
-    background-image: url(./img/Nav_bg.jpg);
 }
 
 nav ul:first-child {
