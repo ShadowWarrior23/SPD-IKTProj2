@@ -1,9 +1,30 @@
-*{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-img{
+img {
     width: 100%;
+}
+
+nav {
+    margin-top: .5rem;
+    background-image: url(./img/Nav_bg.jpg);
+}
+
+nav ul:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+li{
+    padding-top: .5rem;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    padding-top: .5rem;
 }
