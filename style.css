@@ -1,16 +1,17 @@
-*{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-img{
+img {
     width: 100%;
 }
 
 nav {
     margin-top: .5rem;
     background-image: url("./img/Nav_bg.jpg");
+    background-image: url(./img/Nav_bg.jpg);
 }
 
 nav ul:first-child {
@@ -20,9 +21,11 @@ nav ul:first-child {
     align-items: center;
     list-style-type: none;
 }
-li{
+
+li {
     padding-top: .5rem;
 }
+
 a {
     color: gray;
     text-decoration: none;
