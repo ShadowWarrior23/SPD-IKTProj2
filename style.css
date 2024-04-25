@@ -7,7 +7,7 @@ img{
     height: auto;
 }
 nav{
-    background-color: rgb(183, 62, 9);
+    background-color: goldenrod;
     height: 3rem;
 }
 nav a{
@@ -20,7 +20,7 @@ nav a{
     font-weight: 600;
 }
 nav a:hover{
-    background-color: hsla(142, 70%, 20%, .9);
+    background-color: goldenrod;
     color: #fff;
 }
 nav>ul{
