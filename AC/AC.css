@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Oswald:wght@200;300;400;500;600;700&family=Pathway+Extreme:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Zen+Dots&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/desktop-wallpaper-blood-splatter-black-background-blood-spatter-thumbnail.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-image: url("../img/H2-min_50.png");
+    height: 15rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: darkred;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    gap: 200px;
+    margin: 0;
+}
+
+nav ul i {
+    background-color: darkred;
+    border-radius: 50%;
+    padding: .1rem 1rem;
+    color: #fff;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: .7rem;
+    font-size: 1.1rem;
+}
+
+nav ul a:hover {
+    background-color: rgb(88, 0, 0);
+}
+
+nav ul ul {
+    position: absolute;
+    list-style-type: none;
+    z-index: 3;
+}
+
+nav ul ul li a {
+    display: none;
+    background-color: darkred;
+}
+
+nav ul ul li {
+    height: 0;
+    opacity: 0;
+    transition: height 0.5s, opacity 0.3s;
+    transform: translateX(-2rem);
+}
+
+nav ul li:hover ul li {
+    height: 3rem;
+    opacity: 1;
+}
+
+nav ul li:hover ul li a {
+    display: inline-block;
+    width: 20rem;
+}
+
+main {
+    max-width: 90%;
+    background-color: rgba(126, 121, 121, 0.5);
+    margin: .5rem auto;
+    padding: .5rem;
+    border: 2px rgb(64, 0, 0) solid;
+}
+
+#v{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.card {
+    margin: 1rem;
+    display: flex;
+}
+
+.card-img-top:hover {
+    transition: 0.3s;
+}
+
+.card-img-top:hover {
+    margin-top: -5px;
+    transition: 0.3s;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    margin: .75rem;
+}
+
+button {
+    padding: .5rem;
+    border: solid black 3px;
+    font-weight: bold;
+    letter-spacing: 1.5;
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: darkred;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+    transition: .5s;
+    font-weight: bolder;
+    letter-spacing: 1.5;
+    font-size: 1.5rem;
+}
+
+footer a:hover {
+    font-size: 1.6rem;
+    transition: .5s;
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (max-width: 1320px){
+    nav>ul{
+        gap: 50px;
+    }
+}

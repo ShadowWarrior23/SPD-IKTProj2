@@ -28,11 +28,6 @@ nav a {
     font-weight: 600;
 }
 
-nav {
-    background-image: url("./img/Nav_bg.jpg");
-    background-image: url(./img/Nav_bg.jpg);
-}
-
 nav>ul {
     display: flex;
     flex-wrap: wrap;
@@ -74,7 +69,8 @@ nav ul li:hover ul li {
     height: 3rem;
 }
 
-nav ul li ul li:hover, .li:hover{
+nav ul li ul li:hover,
+.li:hover {
     background-color: darkgoldenrod;
     transition: .3s;
 }
