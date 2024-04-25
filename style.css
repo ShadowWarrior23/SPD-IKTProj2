@@ -109,6 +109,20 @@ main {
     margin-bottom: 2rem;
 }
 
+form {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.right {
+    margin-top: 50px;
+    margin-left: -650px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
