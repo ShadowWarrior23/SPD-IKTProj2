@@ -69,6 +69,15 @@ nav ul li:hover ul li a {
 nav ul li:hover ul li {
     height: 3rem;
 }
+nav ul li ul li:hover,
+.li:hover {
+    background-color: darkgoldenrod;
+    transition: .3s;
+}
+
+.li {
+    transition: .2s;
+}
 
 header {
     height: 100px;
@@ -107,4 +116,32 @@ header h1 {
 }
 .video-container  .col{
     color: #fff;
+}
+main {
+    width: 90%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    height: 5rem;
+    background-color: rgb(191, 179, 88);
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+    transition: .5s;
+    font-weight: bolder;
+    letter-spacing: 1.5;
+    font-size: 1.5rem;
+}
+
+footer a:hover {
+    font-size: 1.6rem;
+    transition: .5s;
 }
