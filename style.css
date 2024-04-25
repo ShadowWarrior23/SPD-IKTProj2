@@ -99,7 +99,10 @@ nav ul li ul li:hover,
 
 .video-container  .col{
     color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem ;
 }
+
 main {
     width: 90%;
     margin: 0 auto;
