@@ -115,3 +115,12 @@ header h1 {
 .carouse-item>img {
     height: 400px;
 }
+
+main{
+    width: 90%;
+}
+
+footer{
+height: 5rem;
+background-color: rgb(191, 179, 88);
+}
