@@ -29,11 +29,6 @@ nav a {
     font-weight: 600;
 }
 
-nav {
-    background-image: url("./img/Nav_bg.jpg");
-    background-image: url(./img/Nav_bg.jpg);
-}
-
 nav>ul {
     display: flex;
     flex-wrap: wrap;
@@ -109,4 +104,7 @@ header h1 {
 
 .carouse-item>img {
     height: 400px;
+}
+.video-container  .col{
+    color: #fff;
 }
