@@ -14,12 +14,12 @@ img {
 }
 
 nav {
-    background-color: rgb(253, 253, 130);
+    background-color: goldenrod;
     height: 3rem;
 }
 
 nav a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     padding: 12px;
@@ -74,18 +74,13 @@ nav ul li:hover ul li {
     height: 3rem;
 }
 
-nav ul li ul li:hover {
+nav ul li ul li:hover, .li:hover{
     background-color: darkgoldenrod;
     transition: .3s;
 }
 
 .li {
     transition: .2s;
-}
-
-.li:hover {
-    transition: .2s;
-    background-color: darkgoldenrod;
 }
 
 header {
