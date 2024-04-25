@@ -1,16 +1,25 @@
-*{box-sizing: border-box; margin: 0; padding: 0;}
-body{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
     background-color: rgb(100, 0, 0);
 }
-img{
+
+img {
     width: 100%;
     height: auto;
 }
-nav{
+
+nav {
     background-color: goldenrod;
     height: 3rem;
 }
-nav a{
+
+nav a {
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -21,11 +30,11 @@ nav a{
 }
 
 nav {
-    margin-top: .5rem;
     background-image: url("./img/Nav_bg.jpg");
     background-image: url(./img/Nav_bg.jpg);
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     flex-wrap: wrap;
     column-gap: .1rem;
@@ -35,36 +44,43 @@ nav>ul{
     justify-content: space-evenly;
 
 }
-nav ul li{
+
+nav ul li {
     height: 3rem;
 }
-nav ul li ul{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-position: absolute;
-list-style-type: none;
+
+nav ul li ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    list-style-type: none;
 }
 
-nav ul li ul li{
+nav ul li ul li {
     background-color: red;
     height: 0;
     transition: height .3s;
 }
-nav ul li ul li a{
+
+nav ul li ul li a {
     display: none;
 }
-nav ul li:hover ul li a{
+
+nav ul li:hover ul li a {
     display: inline-block;
 }
-nav ul li:hover ul li{
+
+nav ul li:hover ul li {
     height: 3rem;
 }
-header{
-    height: 100px ;
+
+header {
+    height: 100px;
     background-color: rgb(44, 0, 4);
 }
-header h1{
+
+header h1 {
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -72,20 +88,25 @@ header h1{
     text-transform: uppercase;
     letter-spacing: .5rem;
     font-weight: 700;
-    text-shadow: 2px 2px 2px #fff;
 }
 
-.carousel-caption{
-    text-shadow: 2px 2px 2px rgb(0,0,0);
+.carousel-caption {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
-.carousel-caption p{
+
+.carousel-caption p {
     font-size: 1.3rem;
     text-align: left;
 }
-.carousel-caption h1{
+
+.carousel-caption h1 {
     text-align: left;
 }
-.carousel-caption p{color:#fff;}
-.carouse-item >img{
+
+.carousel-caption p {
+    color: #fff;
+}
+
+.carouse-item>img {
     height: 400px;
 }
