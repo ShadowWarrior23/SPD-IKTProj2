@@ -111,12 +111,12 @@ main {
     display: flex;
 }
 
-.card-img-top:hover {
-    transition: 0.3s;
+.card-img-top{
+    transition: .3s;
 }
 
 .card-img-top:hover {
-    margin-top: -5px;
+    scale: 1.01;
     transition: 0.3s;
 }
 
