@@ -132,6 +132,8 @@ nav ul li ul li:hover,
 main {
     width: 90%;
     margin: 0 auto;
+    background-color: rgba(0,0,0,.4);
+    padding: .5rem;
 }
 
 .card {
