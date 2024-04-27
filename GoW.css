@@ -35,6 +35,9 @@ header h1 {
 nav {
     background-color: goldenrod;
     height: 3rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 nav a {
@@ -99,12 +102,23 @@ nav ul li ul li:hover,
     transition: .2s;
 }
 
-.video-container  .col{
+#form {
+    transition: .3s;
+    background-color: darkred;
+}
+
+#form:hover {
+    background-color: darkgoldenrod;
+    color: red;
+}
+
+.video-container .col {
     color: #fff;
     margin-top: 1rem;
-    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
 }
-.cont h1{
+
+.cont h1 {
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -124,15 +138,21 @@ main {
     margin-bottom: 2rem;
 }
 
+.card-img-top {
+    transition: .3s;
+}
+
+.card-img-top:hover {
+    scale: 1.01;
+    transition: 0.3s;
+}
+
 form {
     color: #fff;
     margin-bottom: 20px;
 }
 
-.right {
-    margin-top: 50px;
-    margin-left: -650px;
-}
+
 
 input {
     margin-bottom: 10px;
@@ -162,3 +182,10 @@ footer a:hover {
     font-size: 1.6rem;
     transition: .5s;
 }
+
+@media (max-width: 1000px) {
+    nav {
+        display: none;
+    }
+}
+
