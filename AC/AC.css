@@ -7,14 +7,14 @@
 }
 
 body {
-    background-image: url("../img/desktop-wallpaper-blood-splatter-black-background-blood-spatter-thumbnail.jpg");
+    background-image: url("./img/desktop-wallpaper-blood-splatter-black-background-blood-spatter-thumbnail.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 header {
-    background-image: url("../img/H2-min_50.png");
+    background-image: url("./img/H2-min_50.png");
     height: 15rem;
     width: 100%;
     margin: 0 auto;
