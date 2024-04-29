@@ -137,16 +137,14 @@ main {
 
 .card {
     margin-bottom: 2rem;
+    transition: 0.3s;
 }
 
-.card-img-top {
-    transition: .3s;
-}
-
-.card-img-top:hover {
+.card:hover{
     scale: 1.01;
     transition: 0.3s;
 }
+
 
 form {
     color: #fff;
