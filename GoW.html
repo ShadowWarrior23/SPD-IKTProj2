@@ -20,7 +20,7 @@
     <nav>
         <ul>
             <li><a href="#0" class="li">A játékról</a></li>
-            <li><a href="#" class="li">Első korszak (görög mitológia)</a>
+            <li><a href="#first" class="li">Első korszak (görög mitológia)</a>
                 <ul>
                     <li><a href="#1">God of War</a></li>
                     <li><a href="#2">God of War II</a></li>
@@ -28,14 +28,14 @@
                 </ul>
 
             </li>
-            <li><a href="#" class="li">Előzmények (görög mitológia)</a>
+            <li><a href="#second" class="li">Előzmények (görög mitológia)</a>
                 <ul>
                     <li><a href="#4">God of War: Ascension</a></li>
                     <li><a href="#5">God of War: Chains of Olympus </a></li>
                     <li><a href="#6">God of War: Ghost of Sparta </a></li>
                 </ul>
             </li>
-            <li><a href="#" class="li">Második korszak (norvég mitológia)</a>
+            <li><a href="#third" class="li">Második korszak (norvég mitológia)</a>
                 <ul>
                     <li><a href="#7">God of War 2018</a></li>
                     <li><a href="#8">God of War Ragnarok</a></li>
@@ -63,7 +63,7 @@
         </div>
         <div class="cont">
             <h1>A játékszorozat</h1>
-            <div class="row">
+            <div class="row" id="first">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card" id="1">
                         <img src="./img/GoW.jpg" class="card-img-top" alt="God of War" title="God of War">
@@ -108,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="second">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card" id="4">
                         <img src="./img/GowA.jpg" class="card-img-top" alt="God of War: Ascension" title="God of War: Ascension">
@@ -155,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="third">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card" id="7">
                         <img src="./img/gow 2018 (3).jpg" class="card-img-top" alt="God of War 2018" title="God of War 2018">
@@ -256,14 +256,21 @@
                         <input type="text" name="adress" id="adress" placeholder="Lakhely">
                     </div>
                     <div class="col col-sm-12 col-md-6 right">
-                        <input type="checkbox"> Fallen God képregénysorozat <br>
-                        <input type="checkbox"> God of War DC Comic képregénysorozat <br>
-                        <input type="checkbox"> God of War(2018) előzmény képregénysorozat <br>
-                        <input type="checkbox"> Bögre <br>
-                        <input type="checkbox"> Kratos figura <br>
-                        <input type="checkbox"> Nyaklánc <br>
-                        <input type="checkbox"> Sapka <br>
-                        <input type="checkbox"> Póló <br>
+                        <input type="checkbox"> Fallen God képregénysorozat
+                        <input type="number" min="1" max="100" value="1"><br>
+                        <input type="checkbox"> God of War DC Comic képregénysorozat
+                        <input type="number" min="1" max="100" value="1"><br>
+                        <input type="checkbox"> God of War(2018) előzmény képregénysorozat
+                        <input type="number" min="1" max="100" value="1"><br>
+                        <input type="checkbox"> Bögre
+                        <input type="number" min="1" max="100" value="1"><br>
+                        <input type="checkbox"> Kratos figura
+                        <input type="number" min="1" max="100" value="1"><br>
+                        <input type="checkbox"> Nyaklánc
+                        <input type="number" min="1" max="100" value="1"><br>
+                        <input type="checkbox"> Sapka
+                        <input type="number" min="1" max="100" value="1"><br>
+                        <input type="checkbox"> Póló
                         <input type="number" min="1" max="100" value="1"><br>
                         <button type="submit">Megrendelem</button>
                     </div>
@@ -278,7 +285,7 @@
         <div class="button1">
              <p><a href="AC/AC.html" target="_blank">Ha érdekelne egy másik játék</a></p>
              <p><a href="https://www.playstation.com/hu-hu/god-of-war/" target="_blank">A God of War hivatalos oldala</a></p>
-             <p><a href="quizz.html">Tegye próbára tudását.</a></p>
+             <p><a href="quizz.html">Tegye próbára tudását!</a></p>
         </div>
     </footer>
 </body>
