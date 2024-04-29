@@ -52,7 +52,44 @@ const questions = [
             {text: "Thor", correct: false},
             {text: "Freya", correct: false}
         ]
+    },
+    {
+        question: "Kinek a szolgálatába állt Kratos?",
+        answers: [
+            {text: "Hephaestus", correct: false},
+            {text: "Ares", correct: true},
+            {text: "Thor", correct: false},
+            {text: "Persephone", correct: false}
+        ]
     }, 
+    {
+        question: "Hány God of War novella jelent meg?",
+        answers: [
+            {text: "1", correct: false},
+            {text: "2", correct: false},
+            {text: "3", correct: true},
+            {text: "5", correct: false}
+        ]
+    }, 
+    {
+        question: "Mi Atreus eredeti neve?",
+        answers: [
+            {text: "Poseidon", correct: false},
+            {text: "Loki", correct: true},
+            {text: "Orkos", correct: false},
+            {text: "Módi", correct: false}
+        ]
+    }, 
+    {
+        question: "Melyik játszódik a legkorábban?",
+        answers: [
+            {text: "God of War", correct: false},
+            {text: "God of War Ascension", correct: true},
+            {text: "God of War Chains of Olympus", correct: false},
+            {text: "God of War Ragnarök", correct: false}
+        ]
+    }, 
+    
 ]
 
 const questionElement = document.getElementById("question");
