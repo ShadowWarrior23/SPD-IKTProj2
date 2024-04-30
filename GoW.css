@@ -118,6 +118,14 @@ nav ul li ul li:hover,
     margin-bottom: 1rem;
 }
 
+.shInt p {
+    text-align: justify;
+}
+
+.shInt h3 {
+    text-align: center;
+}
+
 .cont h1 {
     color: #fff;
     text-align: center;
@@ -131,7 +139,7 @@ nav ul li ul li:hover,
 main {
     width: 90%;
     margin: 0 auto;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0, 0, 0, .4);
     padding: .5rem;
 }
 
@@ -140,7 +148,7 @@ main {
     transition: 0.3s;
 }
 
-.card:hover{
+.card:hover {
     scale: 1.01;
     transition: 0.3s;
 }
@@ -181,6 +189,8 @@ footer a:hover {
     font-size: 1.6rem;
     transition: .5s;
 }
+
+/*popup*/
 section {
     margin-top: 10rem;
     display: none;
@@ -213,8 +223,67 @@ form {
     color: red;
 }
 
+.game {
+    margin-top: 10rem;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.game2 {
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 40vw;
+}
+
+#close-button1 {
+    cursor: pointer;
+    max-width: 20px;
+}
+
+#close-button1:hover {
+    color: red;
+}
+
+.game p,
+.game h2 {
+    text-align: center;
+}
+
+.game a {
+    text-decoration: none;
+    color: #000;
+}
+
+#ACl:hover {
+    background-image: url(./img/AC_slim.jpg);
+    padding: 60px 90px;
+}
+
+#FNAFl:hover {
+    background-image: url(./img/FNAF_slim.jpg);
+    padding: 60px 90px;
+}
+
+/*responsivity*/
 @media (max-width: 1000px) {
     nav {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .vid-cont {
         display: none;
     }
 }
