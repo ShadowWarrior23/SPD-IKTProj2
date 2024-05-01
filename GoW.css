@@ -125,7 +125,24 @@ nav ul li ul li:hover,
 .shInt h3 {
     text-align: center;
 }
-
+.ordertext{
+    margin-top: 10rem;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+.ordertext h1{
+    text-align: center;
+    color: #fff;
+}
+.ordertext p{
+    text-align: center;
+    color: #fff;
+}
 .cont h1 {
     color: #fff;
     text-align: center;
@@ -221,58 +238,6 @@ form {
 
 #close-button:hover {
     color: red;
-}
-
-.game {
-    margin-top: 10rem;
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .7);
-}
-
-.game2 {
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1rem;
-    max-width: 40vw;
-}
-
-#close-button1 {
-    cursor: pointer;
-    max-width: 20px;
-}
-
-#close-button1:hover {
-    color: red;
-}
-
-.game p,
-.game h2 {
-    text-align: center;
-}
-
-.game a {
-    text-decoration: none;
-    color: #000;
-}
-
-#ACl:hover {
-    background-image: url(./img/AC_slim.jpg);
-    padding: 60px 90px;
-}
-
-#FNAFl:hover {
-    background-image: url(./img/FNAF_slim.jpg);
-    padding: 60px 90px;
 }
 
 /*responsivity*/
