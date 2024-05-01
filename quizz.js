@@ -152,7 +152,7 @@ function selectAnswer(e){
 function showScore(){
     resetState();
     questionElement.innerHTML = `${score} pontot szereztél ${questions.length} kérdésből!`;
-    nextButton.innerHTML = " Játsz Újra";
+    nextButton.innerHTML = " Játssz újra";
     nextButton.style.display = "block";
 
 }
