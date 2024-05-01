@@ -5,34 +5,34 @@ const questions = [
             {text: "Káosz Pengéi", correct: true},
             {text: "Leviatán Fejsze", correct: false},
             {text: "Olimpusz Pengéje", correct: false},
-            {text: "Drauphnir", correct: false}
+            {text: "Drauphnir lándzsa", correct: false}
         ]
     }, 
     {
         question: "Hogy hivják Kratos lányát?",
         answers: [
-            {text: "Athena", correct: false},
-            {text: "Artemis", correct: false},
-            {text: "Calliophe", correct: true},
-            {text: "Freya", correct: false}
+            {text: "Athéné", correct: false},
+            {text: "Artemisz", correct: false},
+            {text: "Calliope", correct: true},
+            {text: "Freyja", correct: false}
         ]
     }, 
     {
         question: "Melyik isten Kratos apja?",
         answers: [
-            {text: "Zeus", correct: true},
-            {text: "Ares", correct: false},
-            {text: "Helios", correct: false},
-            {text: "Poseidon", correct: false}
+            {text: "Zeusz", correct: true},
+            {text: "Arész", correct: false},
+            {text: "Héliosz", correct: false},
+            {text: "Poszeidón", correct: false}
         ]
     }, 
     {
         question: "Hogy hívták Kratos elveszet testvérét?",
         answers: [
-            {text: "Hercules", correct: false},
-            {text: "Deimos", correct: true},
+            {text: "Héraklész", correct: false},
+            {text: "Deimosz", correct: true},
             {text: "Atreus", correct: false},
-            {text: "Thezeus", correct: false}
+            {text: "Thészeusz", correct: false}
         ]
     }, 
     {
@@ -41,7 +41,7 @@ const questions = [
             {text: "Kratos", correct: false},
             {text: "Odin", correct: false},
             {text: "Magi", correct: false},
-            {text: "Baldur", correct: true}
+            {text: "Baldr", correct: true}
         ]
     }, 
     {
@@ -50,16 +50,16 @@ const questions = [
             {text: "Sindri", correct: true},
             {text: "Kratos", correct: false},
             {text: "Thor", correct: false},
-            {text: "Freya", correct: false}
+            {text: "Freyja", correct: false}
         ]
     },
     {
         question: "Kinek a szolgálatába állt Kratos?",
         answers: [
-            {text: "Hephaestus", correct: false},
-            {text: "Ares", correct: true},
+            {text: "Héphaisztosz", correct: false},
+            {text: "Arész", correct: true},
             {text: "Thor", correct: false},
-            {text: "Persephone", correct: false}
+            {text: "Perszephoné", correct: false}
         ]
     }, 
     {
@@ -74,10 +74,10 @@ const questions = [
     {
         question: "Mi Atreus eredeti neve?",
         answers: [
-            {text: "Poseidon", correct: false},
+            {text: "Poszeidón", correct: false},
             {text: "Loki", correct: true},
             {text: "Orkos", correct: false},
-            {text: "Módi", correct: false}
+            {text: "Modi", correct: false}
         ]
     }, 
     {
