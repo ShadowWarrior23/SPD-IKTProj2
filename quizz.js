@@ -4,7 +4,7 @@ const questions = [
         answers: [
             {text: "Káosz Pengéi", correct: true},
             {text: "Leviatán Fejsze", correct: false},
-            {text: "Olimpusz Pengéje", correct: false},
+            {text: "Olümpusz Pengéje", correct: false},
             {text: "Drauphnir lándzsa", correct: false}
         ]
     }, 
@@ -27,7 +27,7 @@ const questions = [
         ]
     }, 
     {
-        question: "Hogy hívták Kratos elveszet testvérét?",
+        question: "Hogy hívták Kratos elveszett testvérét?",
         answers: [
             {text: "Héraklész", correct: false},
             {text: "Deimosz", correct: true},
